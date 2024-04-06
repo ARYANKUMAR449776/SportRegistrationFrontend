@@ -33,7 +33,7 @@ document.getElementById("submitButton").addEventListener("click", function (even
     }
 
 
-    fetch('http://localhost:3000/register', {
+    fetch('https://sportregistrationbackend.onrender.com/register', {
         method: "POST",
         body: JSON.stringify(registration),
         headers: {
