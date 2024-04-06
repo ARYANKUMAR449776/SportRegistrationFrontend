@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Event Registration</title>
+</head>
+<body>
+    <form action="" method="" id="registerForm">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="text" id="Id" placeholder="Id">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="Name" placeholder="Full Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="Address" placeholder="Address">
+                    </td>
+                </tr>
+                <!-- Dropdown -->
+                <tr>
+                    <td>
+                        <select name="status" id="status">
+                            <option value="staff">Staff</option>
+                            <option value="student">Student</option>
+                            <option value="volunteer">Volunteer</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p id="validation"></p>
+        <input type="submit" id="submitButton" value="Register">
+    </form>
+    <div id="registrationDetails">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
